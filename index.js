@@ -28,6 +28,10 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  const newDrivers = drivers.last.pop
+  const newDrivers = drivers.pop
   return newDrivers
+}
+
+function removeFirstDriver() {
+  const newDrivers = drivers.first.
 }
